@@ -1,4 +1,4 @@
-# Abstract
+#  Abstract
 
 The traditional way to conduct nutrition research is to have participants recall what they have eaten for one specific day during doctor's visit. The one-day recall of food-log, however, could be highly unrelaible and may not be able to accurately mirror a person's diet. 
 Using the firefighters dataset from the Time-Restricted Eating study, we try to analyze how many days of food records would be sufficient to reflect an accurate picture of a participants’ diet. 
