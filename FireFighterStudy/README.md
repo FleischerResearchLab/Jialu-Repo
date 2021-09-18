@@ -15,8 +15,30 @@ We do not include the dataset in this repository. It can only be shared under Dr
 In this study, we compare different sampling method.
 1. We randomly sample 1, 3, 7, 10 days of record from the baseline period, and compare the overlap between the most k frequent food item of the sample and the most k frequent food items of the entire baseline period.
 2. We consecutively sample 1, 3, 7, 10 days with the starting day being randomly selected, and compare the overlap between the most k frequent food item of the sample and the most k frequent food items of the entire baseline period.
+3. We applied a Monte-Carlo way to do the comparison. Rather than treating the entire baseline as the ground truth (like what the previous two methods does), we iteratively regard result of each choice of days sampled (1,3,7,10) as the "ground truth", and calculate the overlap score between it and the result of other choice of days sampled.
 
+For each comparison, we calculate the result for each participant, repeat for 1000 times, average the result across the 1000 iterations and then average the result across the generation.
 
-1. We 
+# Result
 
-For each person do repeated (1k+ times per person) random subsampling of (A) from 1, 3, 7, 10, 14 days randomly distributed through the data and (B) from 1, 3, 7, 10, 14 days consecutively starting at a random location.  Calculate the % overlap in top k food items between the subsample and all data.  Show the distribution of overlaps for each # days subsample and method of subsample.
+# Getting Started
+
+## Prerequisite
+
+## Use this script to analyze other diet-related dataset
+
+Open Firefighters.ipynb and follow the instruction inside. Be sure to adjust related dataframe or code to with respect to your own data.
+
+## Replicate the analysis or result
+
+Open Firefighters.ipynb and select "Cell -> Run All" from the pull down menus. All cell should be runned automatically.
+
+# Author
+
+Jialu Sui
+
+# Acknowledgement
+
+Thanks Dr. Panda for sharing this amazing dataset with us.
+
+Thanks Professor Fleischer for helping and guiding me throughout the summer.
