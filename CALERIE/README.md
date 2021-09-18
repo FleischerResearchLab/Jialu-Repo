@@ -1,4 +1,3 @@
-# Abstract
 
 In this study, we analyzed data from  Phase II of the CALERIE study which examined the effects of caloric restriction on many different health outcomes and biomarkers over two years.
 We clustered participants based on their percentage calorie intake for 5 meal categories (breakfast, lunch, dinner, snack and other). 
