@@ -1,3 +1,3 @@
 # Jialu-Repo
 
-This repository contains Jialu's work on the diet clustering of Time-Restricted-Eating study.
+This repository contains Jialu's work during the summer with Professor Jason Fleischer.
