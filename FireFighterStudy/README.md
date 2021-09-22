@@ -19,15 +19,14 @@ In this study, we compare different sampling method.
 
 For each comparison, we calculate the result for each participant, repeat for 1000 times, average the result across the 1000 iterations and then average the result across the generation.
 
-# Result
+
 
 # Getting Started
 
-## Prerequisite
 
 ## Use this script to analyze other diet-related dataset
 
-Open Firefighters.ipynb and follow the instruction inside. Be sure to adjust related dataframe or code to with respect to your own data.
+Open Firefighters.ipynb and follow the instruction inside. Be sure to adjust related dataframe or code to fit your own data.
 
 ## Replicate the analysis or result
 
