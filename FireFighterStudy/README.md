@@ -15,9 +15,9 @@ We do not include the dataset in this repository. It can only be shared under Dr
 In this study, we compare different sampling method.
 1. We randomly sample 1, 3, 7, 10 days of record from the baseline period, and compare the overlap between the most k frequent food item of the sample and the most k frequent food items of the entire baseline period.
 2. We consecutively sample 1, 3, 7, 10 days with the starting day being randomly selected, and compare the overlap between the most k frequent food item of the sample and the most k frequent food items of the entire baseline period.
-3. We applied a Monte-Carlo way to do the comparison. Rather than treating the entire baseline as the ground truth (like what the previous two methods does), we iteratively regard result of each choice of days sampled (1,3,7,10) as the "ground truth", and calculate the overlap score between it and the result of other choice of days sampled.
+3. We applied a Monte-Carlo way to do the comparison. Rather than treating the entire baseline as the ground truth (like what the previous two methods does), we iteratively regard the result of each choice of days sampled (1,3,7,10) as the "ground truth", and calculate the overlap score between that and the results of other choices of days sampled.
 
-For each comparison, we calculate the result for each participant, repeat for 1000 times, average the result across the 1000 iterations and then average the result across the generation.
+For each comparison, we calculate the result for each participant, repeat for 1000 times, average the results across the 1000 iterations and then average the results across the population.
 
 
 
